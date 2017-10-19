@@ -86,7 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=1
+    ro.build.selinux=0
 
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -141,14 +141,6 @@ endif
 # AOSCP-specific init file
 PRODUCT_COPY_FILES += \
     vendor/aoscp/prebuilt/common/etc/init.local.rc:root/init.aoscp.rc \
-
-# Installer
-PRODUCT_COPY_FILES += \
-    vendor/aoscp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
-    vendor/aoscp/prebuilt/common/etc/persist.conf:system/etc/persist.conf
-
-PRODUCT_COPY_FILES += \
-    vendor/aoscp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
