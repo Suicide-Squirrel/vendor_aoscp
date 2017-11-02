@@ -4,7 +4,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     LatinIME \
     LatinImeDictionaryPack \
-    Stk
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -20,9 +19,9 @@ PRODUCT_PACKAGES += \
 
 # AOSCP Packages
 PRODUCT_PACKAGES += \
-    Bolt \
     Calculator \
     Luna \
+    SnapdragonMusic \
     Recorder \
 	Turbo \
     WallpaperPicker
