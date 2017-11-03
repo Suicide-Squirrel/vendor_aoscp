@@ -91,3 +91,8 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     procmem \
     procrank
+
+# Audio
+PRODUCT_PACKAGES += \
+    MuzeAudio
+
