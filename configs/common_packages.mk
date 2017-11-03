@@ -26,10 +26,6 @@ PRODUCT_PACKAGES += \
 	Turbo \
     WallpaperPicker
 
-# AOSCP Updates
-PRODUCT_PACKAGES +=  \
-    COTA
-   
 # Substratum ThemeInterfacer
 PRODUCT_PACKAGES += \
     ThemeInterfacer
