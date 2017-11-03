@@ -3,7 +3,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     CellBroadcastReceiver \
     LatinIME \
-    LatinImeDictionaryPack \
+    LatinImeDictionaryPack
 
 # Optional packages
 PRODUCT_PACKAGES += \
