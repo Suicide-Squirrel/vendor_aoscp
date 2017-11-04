@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     CellBroadcastReceiver \
     LatinIME \
-    LatinImeDictionaryPack
+    LatinImeDictionaryPack \
+    ParanoidCamera
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -95,4 +96,3 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     MuzeAudio
-
