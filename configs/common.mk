@@ -86,7 +86,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.selinux=0
+    ro.build.selinux=1
 
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -106,7 +106,7 @@ endif
 
 ifneq ($(TARGET_BUILD_VARIANT),userdebug)
 # Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
 # Backup Tool
