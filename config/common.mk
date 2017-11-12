@@ -78,10 +78,13 @@ PRODUCT_COPY_FILES += \
 # Copy features.txt from the path
 PRODUCT_COPY_FILES += \
     vendor/cm/Features.mkdn:system/etc/RR/Features.txt
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
 
 # NexusLauncher
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
 
 # Wallpaper
 PRODUCT_COPY_FILES += \
