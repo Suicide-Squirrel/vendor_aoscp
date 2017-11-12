@@ -84,6 +84,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true
 
+# Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/aoscp/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+
 #SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
