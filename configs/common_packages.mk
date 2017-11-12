@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
 # AOSCP Packages
 PRODUCT_PACKAGES += \
     Calculator \
-    Luna \
     SnapdragonMusic \
     Recorder \
 	Turbo \
