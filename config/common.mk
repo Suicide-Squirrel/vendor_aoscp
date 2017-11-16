@@ -198,7 +198,6 @@ PRODUCT_PACKAGES += \
     OmniStyle \
     OmniSwitch \
     OmniJaws \
-    SnapdragonCamera \
     ThemeInterfacer
 
 
