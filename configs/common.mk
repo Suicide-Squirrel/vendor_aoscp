@@ -88,6 +88,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/aoscp/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
 
+# MiXplorer
+PRODUCT_COPY_FILES += \
+    vendor/aoscp/prebuilt/MiXplorer/MiXplorer.apk:system/app/MiXplorer/MiXplorer.apk
+
 #SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
