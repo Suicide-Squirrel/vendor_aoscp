@@ -86,6 +86,10 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_COPY_FILES += \
 #    vendor/cm/prebuilt/NexusLauncher/NexusLauncher.apk:system/app/NexusLauncher/NexusLauncher.apk
 
+# GoogleCamera
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/GoogleCamera/GoogleCamera.apk:system/app/GoogleCamera/GoogleCamera.apk
+
 # Wallpaper
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/Wallpaper/Wallpaper.apk:system/app/Wallpaper/Wallpaper.apk
