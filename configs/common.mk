@@ -92,6 +92,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aoscp/prebuilt/MiXplorer/MiXplorer.apk:system/app/MiXplorer/MiXplorer.apk
 
+# GoogleCamera
+PRODUCT_COPY_FILES += \
+    vendor/aoscp/prebuilt/GoogleCamera/GoogleCamera.apk:system/app/GoogleCamera/GoogleCamera.apk
+
 #SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
