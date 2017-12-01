@@ -88,7 +88,7 @@ PRODUCT_COPY_FILES += \
 
 # GoogleCamera
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/GoogleCamera/GoogleCamera.apk:system/app/GoogleCamera/GoogleCamera.apk
+    vendor/cm/prebuilt/GoogleCamera/GoogleCamera.apk:system/priv-app/GoogleCamera/GoogleCamera.apk
 
 # Wallpaper
 PRODUCT_COPY_FILES += \
