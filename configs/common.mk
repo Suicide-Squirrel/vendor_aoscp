@@ -84,9 +84,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true
 
-# Lawnchair
+# NexusLauncher
 PRODUCT_COPY_FILES += \
-    vendor/aoscp/prebuilt/Lawnchair/Lawnchair.apk:system/app/Lawnchair/Lawnchair.apk
+    vendor/aoscp/prebuilt/NexusLauncher/Pixel_2_Launcher.apk:system/app/NexusLauncher/Pixel_2_Launcher.apk
 
 # MiXplorer
 PRODUCT_COPY_FILES += \
